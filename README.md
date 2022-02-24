@@ -1,47 +1,47 @@
-## Overview
+# Overview
 Practice and tutorial-style notebooks covering my Machine Learning and Deep Learning experiments/projects.
 
-## File Structure
+# File Structure
 - `data/` is an empty folder which is used as a destination for the datasets.
 - Notebooks are kept in the root of the project for now.
 
-## Notebooks:
-### Text Classification:
+# Notebooks:
+## Text Classification:
 Classification of Newsgroup documents using four different approaches/algorithms.
 
-##### Notebook: `classification-newsgroup-dataset.ipynb`
+#### Notebook: `classification-newsgroup-dataset.ipynb`
 
 Blog post on the same: <https://shenoy-anurag.github.io/text-classification-on-newsgroup-data.html>
 
-### Hindi Digit Recognizer:
+## Hindi Digit Recognizer:
 Classification of Handwritten Hindi (Devanagari script) digits using Convolutional Neural Networks.
 
-##### Notebook: `hindi-digit-recognition.ipynb`
+#### Notebook: `hindi-digit-recognition.ipynb`
 
 Achieved **99.53%** accuracy on Test Dataset!
 
 
-## System
+# System
 MacBook Air (M1, 2020)
 
 ARM64 architecture (arm64)
 
-### Hardware:
+## Hardware:
 Apple M1 chip
 8-core CPU with 4 performance cores and 4 efficiency cores
 7-core GPU, 8-core GPU
 16-core Neural Engine
 16 GB Ram
 
-### Operating System:
+## Operating System:
 MacOS Monterey 12.2.1 (21D62)
 
-## Environment
-### Conda [(miniforge3)](https://github.com/conda-forge/miniforge):
+# Environment
+## Conda [(miniforge3)](https://github.com/conda-forge/miniforge):
 - conda version : 4.11.0
 - python version : 3.9.7.final.0
 
-### Libraries:
+## Libraries:
 - tensorflow-macos==2.7.0
 - tensorflow-metal==0.3.0
 

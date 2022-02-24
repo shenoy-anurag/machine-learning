@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 ## Overview
-Problems that I solved to build my Machine Learning and Deep Learning Skills.
+Practice and tutorial-style notebooks covering my Machine Learning and Deep Learning experiments/projects.
 
 ## File Structure
 - `data/` is an empty folder which is used as a destination for the datasets.
@@ -10,12 +9,17 @@ Problems that I solved to build my Machine Learning and Deep Learning Skills.
 ### Text Classification:
 Classification of Newsgroup documents using four different approaches/algorithms.
 
-Notebook: `classification-newsgroup-dataset.ipynb`
+##### Notebook: `classification-newsgroup-dataset.ipynb`
 
 Blog post on the same: <https://shenoy-anurag.github.io/text-classification-on-newsgroup-data.html>
-=======
-# machine-learning
-Practice and tutorial-style notebooks covering my Machine Learning experiments.
+
+### Hindi Digit Recognizer:
+Classification of Handwritten Hindi (Devanagari script) digits using Convolutional Neural Networks.
+
+##### Notebook: `hindi-digit-recognition.ipynb`
+
+Achieved **99.53%** accuracy on Test Dataset!
+
 
 ## System
 MacBook Air (M1, 2020)
@@ -78,4 +82,3 @@ If you face any issues in setting up your environment for M1 Macbooks, take a lo
 - <https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-mac-metal-jul-2021.ipynb>
 - <https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf>
 - <https://betterprogramming.pub/installing-tensorflow-on-apple-m1-with-new-metal-plugin-6d3cb9cb00ca>
->>>>>>> d7a58b4 (docs: updated readme to include environment details and setup instructions)

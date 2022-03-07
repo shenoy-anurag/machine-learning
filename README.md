@@ -43,8 +43,8 @@ MacOS Monterey 12.2.1 (21D62)
 - python version : 3.9.7.final.0
 
 ## Libraries:
-- tensorflow-macos==2.7.0
-- tensorflow-metal==0.3.0
+- tensorflow-macos==2.8.0
+- tensorflow-metal==0.4.0
 
 ## Setting up an M1 for tensorflow:
 1. First install xcode-select command-line utilities. 

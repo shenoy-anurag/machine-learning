@@ -20,6 +20,7 @@ Classification of Handwritten Hindi (Devanagari script) digits using Convolution
 
 Achieved **99.53%** accuracy on Test Dataset!
 
+Blog post can be found here: <https://shenoy-anurag.github.io/hindi-mnist-recognizer.html>
 
 # System
 MacBook Air (M1, 2020)

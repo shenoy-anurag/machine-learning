@@ -141,3 +141,4 @@ dmypy.json
 exp/
 data/*.zip
 data/*/
+out/

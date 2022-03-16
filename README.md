@@ -18,9 +18,16 @@ Classification of Handwritten Hindi (Devanagari script) digits using Convolution
 
 #### Notebook: `hindi-digit-recognition.ipynb`
 
-Achieved **99.53%** accuracy on Test Dataset!
+Achieved **99.59%** accuracy on Test Dataset!
 
 Blog post can be found here: <https://shenoy-anurag.github.io/hindi-mnist-recognizer.html>
+
+## Intent Classification:
+Classification of Intents using LSTMs (RNN).
+
+#### Notebook: `intent-classification.ipynb`
+
+This model can be used for a chatbot along with an NER model to pick up entities.
 
 # System
 MacBook Air (M1, 2020)

@@ -1,9 +1,14 @@
 # Overview
 Practice and tutorial-style notebooks covering my Machine Learning and Deep Learning experiments/projects.
 
-# File Structure
-- `data/` is an empty folder which is used as a destination for the datasets.
+# Repository Structure
+- `data` is an empty folder which is used as a destination for the datasets.
 - Notebooks are kept in the root of the project for now.
+- `models` folder contains the various trained models and their custom objects, such as pickle files.
+- `images` folder contains media which is being referenced in Notebooks to add visuals.
+- `mathematics` folder contains python files and jupyter notebooks explaining all the mathematics required for machine learning and running statistical computations.
+- `data_science` folder contains the python files and jupyter notebooks for explaining and running the code required to analyze and process data.
+- `visualization` folder contains snippets to generate various graphs and plots.
 
 # Notebooks:
 ## Text Classification:

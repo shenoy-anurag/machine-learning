@@ -2,38 +2,60 @@
 Practice and tutorial-style notebooks covering my Machine Learning and Deep Learning experiments/projects.
 
 # Repository Structure
+## Key folders
+1. Mathematics - `mathematics` - Prerequisites for ML.
+2. Data Science - `data_science` - Manipulating data.
+3. Machine Learning - `machine_learning` - ML from scratch.
+4. Projects - `projects` - Notebooks on real datasets.
+5. Visualizations - `visualization`.
+
+## All folders
+- `blog` contains blog posts on interesting ml topics.
 - `data` is an empty folder which is used as a destination for the datasets.
-- Notebooks are kept in the root of the project for now.
+- `data_science` folder contains the python files and jupyter notebooks for explaining and running the code required to analyze and process data.
 - `models` folder contains the various trained models and their custom objects, such as pickle files.
 - `images` folder contains media which is being referenced in Notebooks to add visuals.
 - `machine_learning` folder contains the jupyter notebooks reproducing ml algorithms and metrics from scratch.
 - `mathematics` folder contains python files and jupyter notebooks explaining all the mathematics required for machine learning and running statistical computations.
-- `data_science` folder contains the python files and jupyter notebooks for explaining and running the code required to analyze and process data.
+- `models` folder contains trained model weights/parameters and their custom objects.
+- `projects` folder contains the jupyter notebooks performing eda, feature engineering, modeling and evaluation on real datasets.
+- `snippets` folder contains my favorite snippets to make life easier and better.
 - `visualization` folder contains snippets to generate various graphs and plots.
 
-# Notebooks:
+# Projects:
 ## Text Classification:
 Classification of Newsgroup documents using four different approaches/algorithms.
 
-#### Notebook: `classification-newsgroup-dataset.ipynb`
+**Notebook:** `classification-newsgroup-dataset.ipynb`
 
-Blog post on the same: <https://shenoy-anurag.github.io/text-classification-on-newsgroup-data.html>
+Blog post on the same: https://www.anuragshenoy.com/blog/text-classification-on-newsgroup-data
 
 ## Hindi Digit Recognizer:
 Classification of Handwritten Hindi (Devanagari script) digits using Convolutional Neural Networks.
 
-#### Notebook: `hindi-digit-recognition.ipynb`
+**Notebook:** `hindi-digit-recognition.ipynb`
 
 Achieved **99.59%** accuracy on Test Dataset!
 
-Blog post can be found here: <https://shenoy-anurag.github.io/hindi-mnist-recognizer.html>
+Blog post can be found here: https://www.anuragshenoy.com/blog/hindi-mnist-recognizer
+
+Check it out on Kaggle: https://www.kaggle.com/datasets/anurags397/hindi-mnist-data/
 
 ## Intent Classification:
 Classification of Intents using LSTMs (RNN).
 
-#### Notebook: `intent-classification.ipynb`
+**Notebook:** `intent-classification.ipynb`
 
 This model can be used for a chatbot along with an NER model to pick up entities.
+
+## Carbon Dioxide Regression:
+Predicting the CO2 emissions of various vehicles.
+
+**Notebook:** `carbon-regression.ipynb`
+
+The focus of this notebook is to comprehensively cover important aspects of a Data Science notebook.
+
+The notebook is well-structured and well-documented.
 
 # System
 MacBook Air (M1, 2020)

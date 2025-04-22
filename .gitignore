@@ -143,5 +143,6 @@ exp/
 data/*.zip
 data/*/
 out/
+projects/distributions_dataset/scripts/old/
 
 mlruns/
